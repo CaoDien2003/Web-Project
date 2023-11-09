@@ -1,0 +1,12 @@
+/* reset margin, padding */
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.banner {   
+    border: 1px solid red;
+    height: 500px;
+    width: 100%;
+    background: url('/img/LogoPd.png') 50% 0 no-repeat fixed;
+}
