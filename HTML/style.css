@@ -5,8 +5,9 @@ body{
 }
 
 .banner {   
-    background: url('./img/.jpg') center center no-repeat ;
-    height: 1000px;
+    background: url(./img/bg.jpg) center center no-repeat ;
+    height: 570;
+    text-align: center;
 }
 .red{
     border: 1px solid red;
@@ -14,4 +15,12 @@ body{
 .green{
     border: :1px solid greenyellow;
 }
-
+.logo{
+    background: url(./img/LogoPd.png) no-repeat;
+    height: 570;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
