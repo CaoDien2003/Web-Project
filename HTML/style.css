@@ -5,22 +5,74 @@ body{
 }
 
 .banner {   
-    background: url(./img/bg.jpg) center center no-repeat ;
-    height: 570;
+    background: url(./img/bgcf.jpg) center center no-repeat ;
+    height: 500px;
     text-align: center;
+    display: block;
+    padding: 50px 0px;
 }
 .red{
     border: 1px solid red;
 }
 .green{
-    border: :1px solid greenyellow;
+    border:     1px solid green;
 }
 .logo{
-    background: url(./img/LogoPd.png) no-repeat;
-    height: 570;
+    background: url(./img/LogoPd.png) center center no-repeat;
+    margin-top: 40px;
+    height: 300px;
+}
+.about-signin{
+    height: 80px;
+    width: 100%;
+    text-align: right;
+}
+.about, .sign-in{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.sign-in{
+    margin-right: 60px;
+    margin-left: 25px;
+    border: 3px solid rgb(28, 6, 6);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+.text{
     text-align: center;
+    margin-top: 30px;
+}
+.button{
+    text-align: center;
+}
+.button-buy{
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: 2px solid orange;
+    border-radius: 25px;
+    margin-top: 25px;
+    color: orange;
+    cursor: pointer;
+}
+.content-center{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+.content-center-left,
+.content-center-center,
+.content-center-right{
+    width: 33%;
+    display: inline-block;
+    text-transform: capitalize;
+    text-align: center;
+}
+span{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
+    font-size: 30px;
+}
+.img-center{
+    height: 50px;
+    width: 50px;
 }
