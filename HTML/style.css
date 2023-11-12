@@ -6,11 +6,12 @@ body{
 
 .banner {   
     background: url(./img/bgcf.jpg) center center no-repeat ;
-    height: 500px;
+    height: 600px;
     text-align: center;
     display: block;
     padding: 50px 0px;
 }
+.banner,.button,.
 .red{
     border: 1px solid red;
 }
@@ -72,7 +73,16 @@ span{
     display: block;
     font-size: 30px;
 }
+
+.text span{
+    color: green;
+    font-size: 40px;
+}
+
+
+
 .img-center{
     height: 50px;
     width: 50px;
 }
+
